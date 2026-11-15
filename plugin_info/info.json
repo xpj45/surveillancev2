@@ -1,0 +1,21 @@
+{
+	"id" : "surveillancev2",
+	"name" : "Surveillance Equipement V2",
+	"description" : "Surveillance de l'activité d'un équipement par une commande d'état ou une commande analogique (puissance, température, ...). Il remonte (i.e. commande) : une alarme fonction d'un temps min ou max, ou d'une heure prévue de l'activité, un code d'alarme, le temps de l'activité, l'heure où l'équipement est passé actif ou inactif, un compteur, un état, une représentation graphique du temps de d'activité disponible depuis un panel",
+	"licence" : "",
+	"author" : "xpj45",
+	"require" : "4.6",
+	"category" : "monitoring",
+	"display" : "panel",
+	"installation" : "Compatible Jeedom 4.6",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"changelog" : "",
+	"documentation" : "",
+	"link" : {
+		"forum":""
+	},
+	"language" : ["fr_FR"],
+	"compatibility" : ["Jeedomboard","Smart","RPI/RPI2","DIY"]
+}
