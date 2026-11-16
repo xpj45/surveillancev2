@@ -826,6 +826,8 @@ class surveillancev2 extends eqLogic
         }
         if ($first || $isNew || $_repeat) {
             self::doAction('ethalEqAction', 'alarme', 0, $_eq, $_code, [], ($first || $_repeat));
+        } else {
+            log::add('surveillancev2', 'debug', $_eq->getName() . ' : alarme ' . $_code . ' déjà active : actions non relancées (elles ne repartent qu\'au prochain démarrage de l\'équipement, ou à chaque période si la case « Répéter » de l\'alarme est cochée)');
         }
     }
 
